@@ -37,6 +37,9 @@ public class Student {
     }
 
     // Enroll in courses
+    public void enroll() {
+
+    }
 
     // View balance
 
