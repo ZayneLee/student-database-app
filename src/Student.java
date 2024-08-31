@@ -29,11 +29,12 @@ public class Student {
 
     }
 
+    // Generate an ID
     private void setStudentID() {
+        // Grade Level + ID
         id++;
         this.studentID = gradeYear + "" + id;
     }
-    // Generate an ID
 
     // Enroll in courses
 
