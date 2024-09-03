@@ -47,7 +47,6 @@ public class Student {
                 courses = courses + "\n" + course;
                 tuitionBalance = tuitionBalance + costOfCourse;
             } else {
-                System.out.println("BREAK");
                 break;
             }
         } while (1 != 0);
@@ -62,6 +61,11 @@ public class Student {
     }
 
     // Pay Tuition
+    public void payTuition(int payment) {
+        tuitionBalance = tuitionBalance - payment;
+        System.out.println("Thank you for your payment of $" + payment);
+        viewBalance();
+    }
 
     // Show status
 }
