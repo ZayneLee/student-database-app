@@ -69,6 +69,7 @@ public class Student {
     public String toString() {
         return "Name: " + firstName + " " + lastName +
                 "\nGrade Level: " + gradeYear +
+                "\nStudent ID: " + studentID +
                 "\nCourses Enrolled: " + courses +
                 "\nBalance: $" + tuitionBalance;
     }
